@@ -46,7 +46,7 @@
 }
 
 body{
-    background-image: linear-gradient(to top right, #0a1d24, #051f36);
+    background-image: linear-gradient(to top right, #000000, #1d1d1e);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;

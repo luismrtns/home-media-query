@@ -264,8 +264,8 @@
         text-align: center;
         margin: auto;
         margin-top: 20px;
-        padding-top: 20vh;
-        padding-bottom: 20vh;
+        padding-top: 30vh;
+        padding-bottom: 30vh;
         line-height: 1.5em;
         font-size: 1.5em;
         width: 80vw;
@@ -278,7 +278,7 @@
     }
 
     section#img1{
-        background-image: url('imagens/back100.jpg');
+        background-image: url('imagens/imagem\ limpa.jpg');
         background-position: right center;
     }
 
