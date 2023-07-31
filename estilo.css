@@ -48,7 +48,6 @@
 body{
     background-image: linear-gradient(to top right, #000000, #1d1d1e);
     background-size: cover;
-    background-attachment: fixed;
     background-position: center center;
 }
 

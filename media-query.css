@@ -95,11 +95,11 @@
         text-align: center;
         margin: auto;
         margin-top: 20px;
-        padding-top: 20vh;
-        padding-bottom: 20vh;
+        padding-top: 30vh;
+        padding-bottom: 30vh;
         line-height: 1.5em;
         font-size: 1.5em;
-        width: 80vw;
+        width: 95vw;
     }
 
     section.imagem{
@@ -109,8 +109,8 @@
     }
 
     section#img1{
-        background-image: url('imagens/back100.jpg');
-        background-position: right center;
+        background-image: url('imagens/');
+        background-position: center center;
     }
 
     div.ptInicial p, div.ptInicial h1{
@@ -278,8 +278,8 @@
     }
 
     section#img1{
-        background-image: url('imagens/imagem\ limpa.jpg');
-        background-position: right center;
+        background-image: url('imagens/');
+        background-position: center center;
     }
 
     div.ptInicial p, div.ptInicial h1{
