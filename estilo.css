@@ -1,0 +1,315 @@
+@charset "UTF-8";
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #17191b;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--cor6);
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--cor1);
+  }
+
+/*estilos pro mobile*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;500&display=swap');
+
+:root{ /*paleta de cores do site*/
+    --cor1: #f34d5b;
+    --cor2: #158FBF;
+    --cor3: #89D99D;
+    --cor4: #F2CA50;
+    --cor5: #181a1b;
+    --cor6: #DDDEC6;
+}
+
+@font-face {
+    font-family: 'Sunscreen';
+    src: url(fontes/Sunscreen-Unscreened.otf);
+    font-weight: lighter;
+    font-style: normal;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top right, #0a1d24, #051f36);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header{
+    /*background-color: #181a1b;*/
+    color: var(--cor6);
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+header h1{
+    position: relative;
+    color: var(--cor6);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    text-align: center;
+    user-select: none;
+}
+
+header h1::after{
+    content: '';
+    height: 3px;
+    width: 65%;
+    margin: auto;
+    display: block;
+    background-image: var(--gradiente);
+    border-radius: 0 0 15px 15px;
+}
+
+ion-icon.btn-menu{
+    display: block;
+    background-color: var(--cor1);
+    color: var(--cor6);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.7em;
+    width: 35vw;
+    cursor: pointer;
+}
+
+ion-icon:hover{
+    background-color: var(--cor4);
+    color: var(--cor6);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    width: 90vw;
+}
+
+section.imagem{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.404);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img1{
+    background-image: url('imagens/vetor700.jpg');
+    background-position: center center;
+}
+
+div.ptInicial p, div.ptInicial h1{
+    margin: auto;
+    text-align: center;
+    background-color: #00000070;
+    font-size: 1em;
+    opacity: 100%;
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu li{
+    display: block;
+}
+
+menu a{
+    display: block;
+    color: var(--cor2);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    border-bottom: 2px solid #035024;
+}
+
+menu a:hover{
+    background-color: var(--cor3);
+    color: var(--cor6);
+}
+
+main img{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid var(--cor4);
+}
+
+main h1{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: var(--cor6);
+}
+
+main h2{
+    font-family: 'Sunscreen';
+    font-weight: 400;
+}
+
+main p{
+    margin-top: 10px;
+    padding: 10px;
+    color: var(--cor6);
+}
+
+div.ptConts h2{
+    display: block;
+    padding: 10px;
+    color: var(--cor4);
+}
+
+div.ptConts p{
+    margin-top: 3px;
+}
+
+div.port h2{
+    color: var(--cor2);
+}
+
+div.mat h2{
+    color: var(--cor1);
+}
+
+div.hist h2{
+    color: var(--cor4);
+}
+
+div.cien h2{
+    color: var(--cor3);
+}
+
+div.ptRecursos p{
+    margin-top: -10px;
+}
+
+div.ptRecursos h2{
+    padding: 10px;
+}
+
+div.vermelho{
+    margin: auto;
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: var(--cor1);
+    border: 2px solid var(--cor1);
+    padding: 10px;
+    border-radius: 20px; 
+}
+
+div.vermelho ion-icon{
+    position: relative;
+    bottom: -2px;
+    background-color: transparent;
+    color: var(--cor1);
+    font-size: 25px;
+}
+
+div.verde{
+    margin: auto;
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: var(--cor3);
+    border: 2px solid var(--cor3);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.verde ion-icon{
+    position: relative;
+    bottom: -3px;
+    background-color: transparent;
+    color: var(--cor3);
+    font-size: 25px;
+}
+
+div.azul{
+    margin: auto;
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: var(--cor2);
+    border: 2px solid var(--cor2);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.azul ion-icon{
+    position: relative;
+    bottom: -3px;
+    background-color: transparent;
+    color: var(--cor2);
+    font-size: 25px;
+}
+
+div.amarelo{
+    margin: auto;
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: var(--cor4);
+    border: 2px solid var(--cor4);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.amarelo ion-icon{
+    position: relative;
+    bottom: -4px;
+    background-color: transparent;
+    color: var(--cor4);
+    font-size: 25px;
+}
+
+div.ptPraticas img{
+    border: none;
+    border-radius: 10px;
+}
+
+div.ptPraticas h2{
+    color: var(--cor6);
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+div.ptPraticas p{
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 1.2em;
+}

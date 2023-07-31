@@ -1,0 +1,363 @@
+@charset "UTF-8";
+
+:root{ /*paleta de cores do site*/
+    --cor1: #f34d5b;
+    --cor2: #66B1F2;
+    --cor3: #89D99D;
+    --cor4: #F2CA50;
+    --cor5: #2A2D30;
+    --cor6: #DDDEC6;
+    --gradiente: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4))
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) { /*estilos para tablets*/
+    ion-icon.btn-menu{
+        display: none;
+    }
+ 
+    header{
+        border-bottom: 2px solid rgba(245, 245, 245, 0.189);
+        display: flex;
+        padding: 30px;
+        width: 100%;
+        justify-content: space-between;
+}
+
+    header h1{
+        position: relative;
+        top: 10px;
+        margin-bottom: 15px;
+        font-size: 1.2em;
+    }
+
+    header h1::after{
+        content: '';
+        height: 3px;
+        width: 100%;
+        display: block;
+        background-image: var(--gradiente);
+        border-radius: 0 0 15px 15px;
+    }
+
+    menu{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    menu li{
+        display: inline-block;
+    }
+
+    menu a{
+        padding: 10px;
+        text-align: right;
+        color: var(--cor6);
+        border-bottom: 2px solid transparent;
+        font-size: 1.2em;
+        transition: .3s;
+    }
+
+    menu a:hover{
+        background-color: transparent;
+        color: var(--cor6);
+        border-radius: 5px;
+        transition: .3s;
+    }
+
+    .navegation a{
+        position: relative;
+    }
+
+    .navegation a::after{
+        content: '';
+        position: absolute; /* permite posicionar um elemento de forma precisa e independente de outros elementos na página */
+        left: 0px;
+        bottom: 0px; /*vai colocar para baixo do elemento*/
+        width: 100%;
+        height: 3px;
+        background-color: var(--cor1);
+        border-radius: 5px;
+        transform-origin: right;
+        transform: scaleX(0); /*Quando definido como scaleX(0), o elemento é dimensionado para ter uma largura de 0, tornando-se invisível na direção horizontal.*/
+
+    }
+
+    .navegation a:hover::after{
+        transform: scaleX(1);
+        transition: transform .3s;
+        transform-origin: left;
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        line-height: 1.5em;
+        font-size: 1.5em;
+        width: 80vw;
+    }
+
+    section.imagem{
+        box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.404);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    section#img1{
+        background-image: url('imagens/back100.jpg');
+        background-position: right center;
+    }
+
+    div.ptInicial p, div.ptInicial h1{
+        margin: auto;
+        text-align: center;
+        background-color: #000000bb;
+        font-size: 1em;
+        opacity: 100%;
+    }
+
+    div.ptConts{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+    }
+
+    div.port h2{
+        color: var(--cor2);
+    }
+
+    div.mat h2{
+        color: var(--cor1);
+    }
+
+    div.hist h2{
+        color: var(--cor4);
+    }
+
+    div.cien h2{
+        color: var(--cor3);
+    }
+
+    div.ptRecursos{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    div.vermelho, div.verde, div.azul, div.amarelo{
+        width: 480px;
+        height: 125px;
+        transition: .2s;
+    }
+
+    div.ptPraticas{
+        display: block;
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        justify-content: center;
+        height: 50vh;
+    }
+
+    div.ptPraticas p{
+        text-align: center;
+    }
+    
+}
+ 
+ @media screen and (min-width: 993px){ /*estilos para computadores e telas maiores*/
+    ion-icon.btn-menu{
+        display: none;
+    }
+
+    header{
+        border-bottom: 2px solid rgba(245, 245, 245, 0.189);
+        display: flex;
+        padding: 30px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header h1{
+        position: relative;
+        top: 10px;
+    }
+
+    header h1::after{
+        content: '';
+        height: 3px;
+        width: 100%;
+        display: block;
+        background-image: var(--gradiente);
+        border-radius: 0 0 15px 15px;
+    }
+
+    menu{
+        display: block;
+        text-align: center;
+    }
+
+    menu li{
+        display: inline-block;
+    }
+
+    menu a{
+        padding: 12px;
+        text-align: right;
+        color: var(--cor6);
+        border-bottom: 2px solid transparent;
+        font-size: 1.3em;
+        transition: .3s;
+    }
+
+    menu a:hover{
+        background-color: transparent;
+        color: var(--cor1);
+        border-radius: 5px;
+        transition: .3s;
+    }
+
+    .navegation a{
+        position: relative;
+    }
+
+    .navegation a::after{
+        content: '';
+        position: absolute; /* permite posicionar um elemento de forma precisa e independente de outros elementos na página */
+        left: 0px;
+        bottom: 0px; /*vai colocar para baixo do elemento*/
+        width: 100%;
+        height: 3px;
+        background-color: var(--cor1);
+        border-radius: 5px;
+        transform-origin: right;
+        transform: scaleX(0); /*Quando definido como scaleX(0), o elemento é dimensionado para ter uma largura de 0, tornando-se invisível na direção horizontal.*/
+    
+    }
+    
+    .navegation a:hover::after{
+        transform: scaleX(1);
+        transition: transform .3s;
+        transform-origin: left;
+    }
+
+    main{
+        margin: auto;
+        width: 95%;
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        line-height: 1.5em;
+        font-size: 1.5em;
+        width: 80vw;
+    }
+
+    section.imagem{
+        box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.404);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    section#img1{
+        background-image: url('imagens/back100.jpg');
+        background-position: right center;
+    }
+
+    div.ptInicial p, div.ptInicial h1{
+        margin: auto;
+        text-align: center;
+        background-color: #000000bb;
+        font-size: 1.2em;
+        opacity: 100%;
+    }
+
+    div.ptConts{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+    }
+
+    div.port h2{
+        color: var(--cor2);
+    }
+
+    div.mat h2{
+        color: var(--cor1);
+    }
+
+    div.hist h2{
+        color: var(--cor4);
+    }
+
+    div.cien h2{
+        color: var(--cor3);
+    }
+
+    div.ptConts p{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -12px;
+        font-size: 1em;
+    }
+
+    div.ptRecursos{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        font-size: 17px;
+        border-radius: 20px;
+        background-color: #00000048;
+    }
+
+    div.ptRecursos p{
+        position: absolute;
+        top: 55px;
+        line-height: 25px;
+    }
+
+    div.vermelho, div.verde, div.azul, div.amarelo{
+        position: relative;
+        width: 480px;
+        height: 125px;
+        transition: .2s;
+    }
+
+    div.ptPraticas{
+        margin: auto;
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 50vh;
+    }
+
+    div.ptPraticas p{
+        text-align: center;
+    }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="shortcut icon" href="imagens/favicon_mulungu.ico" type="image/x-icon">
+    <title>Tela de Login</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Bem-vindo(a) ao IaEduc</h1>
+        <ion-icon class="btn-menu" name="menu" onclick="abreMenu()"></ion-icon>
+        <menu id="itens" class="navegation">
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Planos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <!--colocar algum conteúdo aqui futuramente-->
+        <section class="imagem" id="img1">
+            <div class="ptInicial">
+                <h1>Planos de aula para professores</h1>
+                <p>Bem-vindo ao nosso site de planos de aula! Aqui você encontrará planos de aula para todas as matérias e anos escolares</p>
+            </div>
+        </section>
+
+        <h1 style="font-size: 37px;">Planos de aulas completos e interativos</h1>
+        <div class="ptConts">
+            <div class="port">
+                <h2>Português</h2>
+                <p>Planos de aula interativos para ensinar gramática, redação e literatura.</p>
+            </div>
+            <div class="mat">
+                <h2>Matemática</h2>
+                <p>Aulas criativas e dinâmicas para ensinar matemática de um jeito divertido.</p>
+            </div>
+            <div class="hist">
+                <h2>História</h2>
+                <p>Planos de aula interativos para ensinar história do Brasil e mundial.</p>
+            </div>
+            <div class="cien">
+                <h2>Ciências</h2>
+                <p>Experimentos e projetos para ensinar ciências de forma divertida e estimulante.</p>
+            </div>
+        </div>
+
+        <div class="ptRecursos">
+            <h1 style="font-size: 37px;">Recursos educacionais únicos para seu aprendizado</h1>
+                    <div class="vermelho">
+                        <h2>Apostilas para download <ion-icon name="download"></ion-icon></h2>
+                        <p>Baixe nossas apostilas em PDF para levar para onde quiser e estudar no seu tempo livre.</p>
+                    </div>
+                    <div class="verde">
+                        <h2>Aulas em vídeo <ion-icon name="videocam"></ion-icon></h2>
+                        <p>Assista a aulas completas em vídeo de todas as matérias do infatil ao ensino fundamental.</p>
+                    </div>
+                        <div class="azul">
+                            <h2>Atividades práticas <ion-icon name="extension-puzzle"></ion-icon></h2>
+                            <p>Atividades para imprimir e usar em sala de aula ou para estimular o estudo em casa.</p>
+                        </div>
+                        <div class="amarelo">
+                            <h2>Sistema único de provas <ion-icon name="reader"></ion-icon></h2>
+                            <p>Sistema para fazer provas eficiente, rápido e prático. Agilizando seu trabalho e tornando-o cada prova única.</p>
+                        </div>
+                </div>
+
+        <h1 style="font-size: 37px;">Nossas práticas de ensino</h1>
+        <div class="ptPraticas">
+            <div>
+                <img src="imagens/tec-vetor.png" alt="aprendendo com tecnlogia">
+                <h2>Usando a tecnlogia a nosso favor</h2>
+                <p>Use a tecnologia para ajudar seus alunos a acessar informações, colaborar e criar projetos multifacetados.</p>
+            </div>
+
+            <div>
+                <img src="imagens/Meu projeto.png" alt="atividade em grupo">
+                <h2>Atividades em grupo</h2>
+                <p>Estimulando o engajamento dos alunos por meio de debates e atividades práticas.</p>
+            </div>
+
+            <div>
+                <img src="imagens/gru-vetor.png" alt="Encoraje seus alunos">
+                <h2>Encoraje os alunos</h2>
+                <p>Cuide de seus alunos e os encoraje a participar da aula, tornando-a mais interativa e interessante.</p>
+            </div>
+        </div>
+    </main>
+
+    <!--<footer>
+        <p>&copy;;InovAssessoria todos os direitos reservados</p>
+    </footer>-->
+
+    <script>
+        function abreMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if(window.innerWidth >= 768){ //vai mostrar o menu quando a tela for maior que 768px
+                itens.style.display = 'block'
+            } else{
+                itens.style,display = 'none'
+            }
+        }
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
