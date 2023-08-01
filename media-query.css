@@ -105,7 +105,7 @@
     }
 
     div#img1{
-        background-image: url('imagens/imagem\ png\ 1500x700.png');
+        background-image: url('imagens/back\ certo.png');
         background-position: center center;
     }
 
@@ -261,7 +261,7 @@
 
     div#img1{
         display: block;
-        background-image: url('imagens/');
+        background-image: url('imagens/back\ certo.png');
         background-position: center center;
     }
 
