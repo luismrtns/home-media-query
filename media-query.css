@@ -264,21 +264,18 @@
         text-align: center;
         margin: auto;
         margin-top: 20px;
-        padding-top: 30vh;
-        padding-bottom: 30vh;
-        line-height: 1.5em;
-        font-size: 1.5em;
-        width: 80vw;
+        padding-top: 40vh;
+        padding-bottom: 40vh;
+        width: 95vw;
     }
 
     section.imagem{
-        box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.404);
         background-size: cover;
-        background-attachment: fixed;
     }
 
     section#img1{
-        background-image: url('imagens/');
+        display: block;
+        background-image: url('imagens/imagem\ png\ 1500x950.png');
         background-position: center center;
     }
 
