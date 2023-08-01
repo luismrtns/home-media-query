@@ -29,6 +29,7 @@
     --cor4: #F2CA50;
     --cor5: #181a1b;
     --cor6: #DDDEC6;
+    --gradiente: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4))
 }
 
 @font-face {
@@ -46,7 +47,7 @@
 }
 
 body{
-    background-image: linear-gradient(to top right, #000000, #1a1a2d);
+    background-color: #131320;
     background-size: cover;
     background-position: center center;
 }
@@ -56,19 +57,25 @@ header{
     color: var(--cor6);
     padding: 10px;
     padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
-header h1{
+header img{
     position: relative;
-    color: var(--cor6);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    font-size: 1.5em;
-    text-align: center;
-    user-select: none;
+    top: -5px;
 }
 
-ion-icon.btn-menu{
+/*header h1::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    display: block;
+    background-image: var(--gradiente);
+    border-radius: 0 0 15px 15px;
+}*/
+
+/*ion-icon.btn-menu{
     display: block;
     background-color: var(--cor1);
     color: var(--cor6);
@@ -80,12 +87,12 @@ ion-icon.btn-menu{
     font-size: 1.7em;
     width: 35vw;
     cursor: pointer;
-}
+}*/
 
-ion-icon:hover{
+/*ion-icon:hover{
     background-color: var(--cor4);
     color: var(--cor5);
-}
+}*/
 
 div.imagem{
     display: flex;
@@ -99,26 +106,9 @@ div.imagem{
     background-size: cover;
 }
 
-div.imagem{
-    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.404);
-    
-}
-
 div#img1{
-    background-image: url('imagens/celular.png');
+    background-image: url('imagens/celular\ preto.png');
     background-position: center center;
-}
-
-div.ptInicial p, div.ptInicial h1{
-    margin: auto;
-    text-align: center;
-    background-color: #00000070;
-    font-size: 1em;
-    opacity: 100%;
-}
-
-menu{
-    display: none;
 }
 
 menu > ul{
@@ -130,19 +120,22 @@ menu li{
 }
 
 menu a{
-    display: block;
-    color: var(--cor2);
+    position: relative;
+    display: flex;
+    justify-content: right;
+    background-color: transparent;
+    border: 2px solid var(--cor1);
+    color: var(--cor1);
+    border-radius: 10px;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    text-align: center;
     margin: auto;
-    padding: 15px;
-    border-bottom: 2px solid #f2ca5032;
+    padding: 12px;
 }
 
 menu a:hover{
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     color: var(--cor5);
 }
 
