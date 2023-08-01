@@ -68,16 +68,6 @@ header h1{
     user-select: none;
 }
 
-header h1::after{
-    content: '';
-    height: 3px;
-    width: 65%;
-    margin: auto;
-    display: block;
-    background-image: var(--gradiente);
-    border-radius: 0 0 15px 15px;
-}
-
 ion-icon.btn-menu{
     display: block;
     background-color: var(--cor1);
