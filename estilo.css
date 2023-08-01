@@ -94,30 +94,28 @@ ion-icon.btn-menu{
 
 ion-icon:hover{
     background-color: var(--cor4);
-    color: var(--cor6);
+    color: var(--cor5);
 }
 
-section{
+div.imagem{
     display: flex;
     justify-content: center;
     text-align: center;
     margin: auto;
     margin-top: 20px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 1.5em;
-    font-size: 1.5em;
-    width: 90vw;
-}
-
-section.imagem{
-    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.404);
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    width: 100vw;
     background-size: cover;
-    background-attachment: fixed;
 }
 
-section#img1{
-    background-image: url('imagens/vetor700.jpg');
+div.imagem{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.404);
+    
+}
+
+div#img1{
+    background-image: url('imagens/imagem\ png\ 1000x700.png');
     background-position: center center;
 }
 
@@ -150,12 +148,12 @@ menu a{
     text-align: center;
     margin: auto;
     padding: 15px;
-    border-bottom: 2px solid #035024;
+    border-bottom: 2px solid #f2ca5032;
 }
 
 menu a:hover{
     background-color: var(--cor3);
-    color: var(--cor6);
+    color: var(--cor5);
 }
 
 main img{
