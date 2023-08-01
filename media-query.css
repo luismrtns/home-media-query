@@ -255,36 +255,28 @@
 
     main{
         margin: auto;
-        width: 95%;
+        width: 100%;
     }
 
-    section{
+    div.imagem{
         display: flex;
         justify-content: center;
         text-align: center;
         margin: auto;
         margin-top: 20px;
-        padding-top: 40vh;
-        padding-bottom: 40vh;
-        width: 95vw;
+        padding-top: 35vh;
+        padding-bottom: 35vh;
+        width: 99%;
     }
 
-    section.imagem{
+    div.imagem{
         background-size: cover;
     }
 
-    section#img1{
+    div#img1{
         display: block;
         background-image: url('imagens/imagem\ png\ 1500x950.png');
         background-position: center center;
-    }
-
-    div.ptInicial p, div.ptInicial h1{
-        margin: auto;
-        text-align: center;
-        background-color: #000000bb;
-        font-size: 1.2em;
-        opacity: 100%;
     }
 
     div.ptConts{
