@@ -54,7 +54,7 @@ section#login{
 
 section > div#imagem{
     display: block;
-    background: var(--cor6) url(../imagens/brasao-mul.png) no-repeat;
+    background: var(--cor5) url(../imagens/nava\ logo400-2.png) no-repeat;
     background-position: center center;
     height: 200px;
     background-size: contain;
