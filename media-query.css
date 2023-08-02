@@ -90,7 +90,7 @@
         transform-origin: left;
     }
 
-    div.imagem{
+    section.imagem{
         display: flex;
         justify-content: center;
         text-align: center;
@@ -104,9 +104,10 @@
         background-size: cover;
     }
 
-    div#img1{
-        background-image: url('imagens/back\ certo-mesmo.png');
+    section#img1{
+        background-image: url('imagens/capa-cornova-fundo.png');
         background-position: center center;
+        background-attachment: fixed;
     }
 
     div.ptConts{
