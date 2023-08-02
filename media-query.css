@@ -203,6 +203,8 @@
     }
 
     menu a{
+        position: relative;
+        top: 25px;
         margin: auto;
         text-align: right;
         color: var(--cor1);
@@ -245,7 +247,7 @@
 
     main{
         margin: auto;
-        width: 100%;
+        width: 99%;
     }
 
     section.imagem{
