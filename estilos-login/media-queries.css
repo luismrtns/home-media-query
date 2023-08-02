@@ -2,35 +2,37 @@
 
 
 :root{ /*paleta de cores do site*/
-    --cor1: #F23545;
+    --cor1: #f34d5b;
     --cor2: #158FBF;
-    --cor3: #03A64A;
-    --cor4: #F28705;
-    --cor5: #2A2D30;
+    --cor3: #89D99D;
+    --cor4: #F2CA50;
+    --cor5: #181a1b;
     --cor6: #DDDEC6;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /*media query para tablets*/
 
     body{
-        background-image: linear-gradient(to top, var(--cor3), var(--cor2));
+        background-image: linear-gradient(to top left, var(--cor5), var(--cor2), var(--cor4));
     }
 
     section#login{
         width: 80vw;
         height: 350px;
+        padding: 20px;
     }
 
     section#login > div#imagem{
         float: left;
-        width: 30%;
+        width: 40%;
         height: 100%;
         background-size: contain;
     }
 
     section#login > div#formulario{
         float: right;
-        width: 70%;
+        width: 60%;
+        margin-top: -20px;
     }
 
     div#formulario p{
@@ -41,7 +43,7 @@
 @media screen and (min-width: 992px) { /*media query para desktop e telas grandes*/
     
     body{
-        background-image: linear-gradient(to top right, var(--cor5), var(--cor2), var(--cor3));
+        background-image: linear-gradient(to top left, var(--cor5), var(--cor2), var(--cor4));
     }
     
     section#login{
@@ -59,6 +61,7 @@
     section#login > div#formulario{
         float: left;
         width: 55%;
+        margin-top: -20px;
     }
 
     div#formulario h1{
