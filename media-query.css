@@ -105,7 +105,7 @@
     }
 
     div#img1{
-        background-image: url('imagens/back\ certo.png');
+        background-image: url('imagens/back\ certo-mesmo.png');
         background-position: center center;
     }
 
@@ -253,7 +253,7 @@
         text-align: center;
         margin: auto;
         margin-top: 20px;
-        padding-top: 40vh;
+        padding-top: 50vh;
         padding-bottom: 40vh;
         width: 100%;
         background-size: cover;
@@ -261,7 +261,7 @@
 
     div#img1{
         display: block;
-        background-image: url('imagens/back\ certo.png');
+        background-image: url('imagens/capa-cornova-fundo.png');
         background-position: center center;
     }
 
