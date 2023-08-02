@@ -247,21 +247,22 @@
         width: 100%;
     }
 
-    div.imagem{
+    section.imagem{
         display: flex;
         justify-content: center;
         text-align: center;
         margin: auto;
         margin-top: 20px;
-        padding-top: 50vh;
+        padding-top: 40vh;
         padding-bottom: 40vh;
         width: 100%;
         background-size: cover;
     }
 
-    div#img1{
+    section#img1{
         display: block;
         background-image: url('imagens/capa-cornova-fundo.png');
+        background-attachment: fixed;
         background-position: center center;
     }
 

@@ -47,7 +47,8 @@
 }
 
 body{
-    background-color: #131320;
+    /*background-color: #131320;*/
+    background-color: #020139;
     background-size: cover;
     background-position: center center;
 }
