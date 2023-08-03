@@ -10,7 +10,7 @@
     --gradiente: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4))
 }
 
-@media screen and (min-width: 481px) and (max-width: 992px) { /*estilos para tablets*/
+@media screen and (min-width: 768px){ /*estilos para tablets*/
     ion-icon.btn-menu{
         display: none;
     }
@@ -105,7 +105,7 @@
     }
 
     div#img1{
-        background-image: url('imagens/layout\ 1500x700.png');
+        background-image: url('imagens/');
         background-position: center center;
         background-attachment: fixed;
     }
@@ -166,7 +166,7 @@
     
 }
  
- @media screen and (min-width: 993px){ /*estilos para computadores e telas maiores*/
+@media screen and (min-width: 992px){ /*estilos para computadores e telas maiores*/
     ion-icon.btn-menu{
         display: none;
     }
@@ -258,8 +258,8 @@
         text-align: center;
         margin: auto;
         margin-top: 20px;
-        padding-top: 35vh;
-        padding-bottom: 30vh;
+        padding-top: 50vh;
+        padding-bottom: 35vh;
         width: 95%;
         background-size: cover;
     }
@@ -268,7 +268,6 @@
         display: block;
         background-image: url('imagens/layout\ 1500x700.png');
         background-position: center center;
-        background-attachment: fixed;
     }
 
     div.ptConts{
