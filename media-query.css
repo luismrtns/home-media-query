@@ -10,7 +10,7 @@
     --gradiente: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4))
 }
 
-@media screen and (min-width: 767px) and (max-width: 992px) { /*estilos para tablets*/
+@media screen and (min-width: 481px) and (max-width: 992px) { /*estilos para tablets*/
     ion-icon.btn-menu{
         display: none;
     }
@@ -89,26 +89,25 @@
         margin: auto;
         text-align: center;
         justify-content: center;
-        width: 99%;
+        width: 100%;
     }
 
-    section.imagem{
+    div.imagem{
         display: flex;
         justify-content: center;
         text-align: center;
         margin: auto;
         margin-top: 20px;
-        padding-top: 30vh;
-        padding-bottom: 35vh;
-        line-height: 1.5em;
-        font-size: 1.5em;
-        width: 97%;
+        padding-top: 35vh;
+        padding-bottom: 30vh;
+        width: 95%;
         background-size: cover;
     }
 
-    section#img1{
+    div#img1{
         background-image: url('imagens/layout\ 1500x700.png');
         background-position: center center;
+        background-attachment: fixed;
     }
 
     div.ptConts{
@@ -253,22 +252,23 @@
         width: 99%;
     }
 
-    section.imagem{
+    div.imagem{
         display: flex;
         justify-content: center;
         text-align: center;
         margin: auto;
         margin-top: 20px;
-        padding-top: 40vh;
-        padding-bottom: 50vh;
-        width: 97%;
+        padding-top: 35vh;
+        padding-bottom: 30vh;
+        width: 95%;
         background-size: cover;
     }
 
-    section#img1{
+    div#img1{
         display: block;
         background-image: url('imagens/layout\ 1500x700.png');
         background-position: center center;
+        background-attachment: fixed;
     }
 
     div.ptConts{

@@ -136,6 +136,7 @@ section.imagem{
 section#img1{
     background-image: url('imagens/layout\ 750.svg');
     background-position: center center;
+    background-attachment: fixed;
 }
 
 /*main img{
