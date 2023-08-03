@@ -87,24 +87,26 @@
 
     main{
         margin: auto;
+        text-align: center;
+        justify-content: center;
         width: 99%;
     }
 
-    section.imagem{
+    div.imagem{
         display: flex;
         justify-content: center;
         text-align: center;
         margin: auto;
         margin-top: 20px;
         padding-top: 30vh;
-        padding-bottom: 30vh;
+        padding-bottom: 35vh;
         line-height: 1.5em;
         font-size: 1.5em;
-        width: 98%;
+        width: 97%;
         background-size: cover;
     }
 
-    section#img1{
+    div#img1{
         background-image: url('imagens/layout\ 1500x700.png');
         background-position: center center;
     }
@@ -246,10 +248,12 @@
 
     main{
         margin: auto;
+        text-align: center;
+        justify-content: center;
         width: 99%;
     }
 
-    section.imagem{
+    div.imagem{
         display: flex;
         justify-content: center;
         text-align: center;
@@ -257,11 +261,11 @@
         margin-top: 20px;
         padding-top: 40vh;
         padding-bottom: 50vh;
-        width: 98%;
+        width: 97%;
         background-size: cover;
     }
 
-    section#img1{
+    div#img1{
         display: block;
         background-image: url('imagens/layout\ 1500x700.png');
         background-position: center center;

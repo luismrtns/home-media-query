@@ -54,7 +54,6 @@ body{
 }
 
 header{
-   /* background-color: #f7fcff;*/
     color: var(--cor6);
     padding: 10px;
     padding-bottom: 0px;
@@ -96,14 +95,14 @@ div.imagem{
     text-align: center;
     margin: auto;
     margin-top: 20px;
-    padding-top: 30vh;
-    padding-bottom: 30vh;
-    width: 100vw;
+    padding-top: 50vh;
+    padding-bottom: 40vh;
+    width: 80%;
     background-size: cover;
 }
 
 div#img1{
-    background-image: url('imagens/');
+    background-image: url('imagens/layout-celular-2.0.svg');
     background-position: center center;
 }
 
@@ -133,6 +132,10 @@ menu a{
 menu a:hover{
     background-color: var(--cor1);
     color: var(--cor5);
+}
+
+main{
+    width: 99%;
 }
 
 main img{

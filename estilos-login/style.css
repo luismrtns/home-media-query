@@ -55,7 +55,7 @@ section#login{
 
 section > div#imagem{
     display: block;
-    background: var(--cor5) url(../imagens/nava\ logo400-2.png) no-repeat;
+    background: var(--cor5) url(../imagens/logo\ colorida.svg) no-repeat;
     background-position: center center;
     height: 200px;
     background-size: contain;
@@ -129,6 +129,7 @@ form > a.botao{
     display: block;
     margin: auto;
     margin-top: 10px;
+    padding: 10px;
     padding-top: 3px;
     text-align: center;
     font-size: 0.9em;
@@ -137,7 +138,7 @@ form > a.botao{
     font-weight: bold;
     border-radius: 4px;
     border: 2px solid var(--cor4);
-    width: 55%;
+    width: 70%;
     height: 30px;
 }
 
