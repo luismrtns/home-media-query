@@ -56,9 +56,10 @@ body{
 header{
     color: var(--cor6);
     padding: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid rgba(245, 245, 245, 0.28);
 }
 
 /*header h1::after{
@@ -89,23 +90,6 @@ header{
     color: var(--cor5);
 }*/
 
-div.imagem{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-    padding-top: 50vh;
-    padding-bottom: 45vh;
-    width: 80%;
-    background-size: cover;
-}
-
-div#img1{
-    background-image: url('imagens/layout-700x500-2.0.svg');
-    background-position: center center;
-}
-
 menu > ul{
     list-style-type: none;
 }
@@ -135,16 +119,32 @@ menu a:hover{
 }
 
 main{
-    width: 99%;
+    width: 100%;
 }
 
-main img{
+section.imagem{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 50vh;
+    padding-bottom: 28vh;
+    width: 97%;
+    background-size: cover;
+}
+
+section#img1{
+    background-image: url('imagens/layout\ 750.svg');
+    background-position: center center;
+}
+
+/*main img{
     display: block;
     text-align: center;
     margin: auto;
     margin-top: 20px;
     border: 2px solid var(--cor4);
-}
+}*/
 
 main h1{
     margin-top: 10px;

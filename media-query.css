@@ -92,7 +92,7 @@
         width: 99%;
     }
 
-    div.imagem{
+    section.imagem{
         display: flex;
         justify-content: center;
         text-align: center;
@@ -106,7 +106,7 @@
         background-size: cover;
     }
 
-    div#img1{
+    section#img1{
         background-image: url('imagens/layout\ 1500x700.png');
         background-position: center center;
     }
@@ -253,7 +253,7 @@
         width: 99%;
     }
 
-    div.imagem{
+    section.imagem{
         display: flex;
         justify-content: center;
         text-align: center;
@@ -265,7 +265,7 @@
         background-size: cover;
     }
 
-    div#img1{
+    section#img1{
         display: block;
         background-image: url('imagens/layout\ 1500x700.png');
         background-position: center center;
