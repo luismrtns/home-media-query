@@ -10,7 +10,7 @@
     --gradiente: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4))
 }
 
-@media screen and (min-width: 768px){ /*estilos para tablets*/
+@media screen and (min-width: 768px) and (max-width: 991px){ /*estilos para tablets*/
     ion-icon.btn-menu{
         display: none;
     }
@@ -107,7 +107,6 @@
     div#img1{
         background-image: url('imagens/');
         background-position: center center;
-        background-attachment: fixed;
     }
 
     div.ptConts{
